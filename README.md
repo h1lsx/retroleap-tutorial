@@ -9,7 +9,7 @@
 
 1. Install the necessary dependencies:
 
-On ubuntu/debian/etc: sudo apt install sg3-utils git python ~~python2~~ (python2 is no longer required thanks to [@Zelec](https://github.com/Zelec) and [@andymcca](https://github.com/andymcca))
+   On ubuntu/debian/etc: sudo apt install sg3-utils git python ~~python2~~ (python2 is no longer required thanks to [@Zelec](https://github.com/Zelec) and [@andymcca](https://github.com/andymcca))
 
 2-4. Use the [provided releases](https://github.com/h1lsx/Retroleap-tutorial/releases) with sshflash and Retroleap bundled
 
@@ -17,13 +17,12 @@ On ubuntu/debian/etc: sudo apt install sg3-utils git python ~~python2~~ (python2
 
 2. Clone the specialized sshflash version with the ssh key fix ([keyless versions](https://github.com/mac2612/sshflash)):
 
-Windows versions: https://github.com/andymcca/sshflash-win/releases/tag/v0.2-alpha
-git clone https://github.com/h1lsx/sshflash-password-fix.git
-cd sshflash-password-fix
+   Windows versions: https://github.com/andymcca/sshflash-win/releases/tag/v0.2-alpha
 
-3. Download the last supported release .zip file at:
+   git clone https://github.com/h1lsx/sshflash-password-fix.git
+   cd sshflash-password-fix
 
-https://github.com/mac2612/Retroleap/releases/download/v2.0.0-alpha4/Retroleap_v2.0.0-alpha4.zip
+4. Download the last supported release .zip file at: https://github.com/mac2612/Retroleap/releases/download/v2.0.0-alpha4/Retroleap_v2.0.0-alpha4.zip
 
 4. Extract the release file into the sshflash directory. You should now have the uImage, rootfs.tar.gz, and surgeon_zImage files for each device in your sshflash directory.
 
