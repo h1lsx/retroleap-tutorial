@@ -9,9 +9,10 @@
 
 1. Install the necessary dependencies:
 
-   On ubuntu/debian/etc: sudo apt install sg3-utils git python ~~python2~~ (python2 is no longer required thanks to [@Zelec](https://github.com/Zelec) and [@andymcca](https://github.com/andymcca))
+   On ubuntu/debian/etc: sudo apt install sg3-utils git python ~~python2~~ (python2 is no longer required thanks to [@Zelec](https://github.com/Zelec) and [@andymcca](https://github.com/andymcca))\
+   On windows 10 (not 11!): install [usblan](https://github.com/datalogic/usblan/releases). More info [here](https://github.com/andymcca/sshflash-win/issues/4).
 
-2-4. Use the [provided releases](https://github.com/h1lsx/Retroleap-tutorial/releases) with sshflash and Retroleap bundled
+2-4. Use the [provided releases](https://github.com/h1lsx/Retroleap-tutorial/releases) with sshflash and Retroleap bundled.
 
 **OR**
 
@@ -26,7 +27,7 @@ For ssh key versions:\
 3. Download the last supported release .zip file at: https://github.com/mac2612/Retroleap/releases/download/v2.0.0-alpha4/Retroleap_v2.0.0-alpha4.zip
 
 For keyless versions:\
-Follow the regular steps it's pretty self-explanatory
+Untested, instructions not yet documented.
 
 5. Extract the release file into the sshflash directory. You should now have the uImage, rootfs.tar.gz, and surgeon_zImage files for each device in your sshflash directory.
 
