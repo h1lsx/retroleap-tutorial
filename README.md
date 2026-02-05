@@ -19,8 +19,8 @@
 
    Windows versions: https://github.com/andymcca/sshflash-win/releases/tag/v0.2-alpha
 
-   git clone https://github.com/h1lsx/sshflash-password-fix.git
-   cd sshflash-password-fix
+   `git clone https://github.com/h1lsx/sshflash-password-fix.git`\
+   `cd sshflash-password-fix`
 
 4. Download the last supported release .zip file at: https://github.com/mac2612/Retroleap/releases/download/v2.0.0-alpha4/Retroleap_v2.0.0-alpha4.zip
 
