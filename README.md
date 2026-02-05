@@ -15,22 +15,26 @@
 
 **OR**
 
+For ssh key versions:\
 2. Clone the specialized sshflash version with the ssh key fix ([keyless versions](https://github.com/mac2612/sshflash)):
 
-   Windows versions: https://github.com/andymcca/sshflash-win/releases/tag/v0.2-alpha
+   Windows versions: https://github.com/andymcca/sshflash-win/releases/
 
    `git clone https://github.com/h1lsx/sshflash-password-fix.git`\
    `cd sshflash-password-fix`
 
-4. Download the last supported release .zip file at: https://github.com/mac2612/Retroleap/releases/download/v2.0.0-alpha4/Retroleap_v2.0.0-alpha4.zip
+3. Download the last supported release .zip file at: https://github.com/mac2612/Retroleap/releases/download/v2.0.0-alpha4/Retroleap_v2.0.0-alpha4.zip
 
-4. Extract the release file into the sshflash directory. You should now have the uImage, rootfs.tar.gz, and surgeon_zImage files for each device in your sshflash directory.
+For keyless versions:\
+Follow the regular steps it's pretty self-explanatory
 
-5. Plug your device into a USB port on your PC. Run sshflash using `./remote_flash.sh` and follow the instructions to boot into the device. If your device goes through the usual boot sequence (LeapFrog logo, boot chime) before the connected screen, you've done it wrong.
+5. Extract the release file into the sshflash directory. You should now have the uImage, rootfs.tar.gz, and surgeon_zImage files for each device in your sshflash directory.
 
-6. Input your device type and wait for sshflash to do its thing.
+6. Plug your device into a USB port on your PC. Run sshflash using `./remote_flash.sh` and follow the instructions to boot into the device. If your device goes through the usual boot sequence (LeapFrog logo, boot chime) before the connected screen, you've done it wrong.
 
-7. If all goes well, your leapfrog device should reboot into Retroleap.
+7. Input your device type and wait for sshflash to do its thing.
+
+8. If all goes well, your leapfrog device should reboot into Retroleap.
 
 -------------------------------------------------------------------------------
 
