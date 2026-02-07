@@ -10,7 +10,7 @@
 1. Install the necessary dependencies:
 
    On ubuntu/debian/etc: sudo apt install sg3-utils git python ~~python2~~ (python2 is no longer required thanks to [@Zelec](https://github.com/Zelec) and [@andymcca](https://github.com/andymcca))\
-   On windows 10 (not 11!): install [usblan](https://github.com/datalogic/usblan/releases). More info [here](https://github.com/andymcca/sshflash-win/issues/4).
+   On windows 10: install [usblan](https://github.com/datalogic/usblan/releases). More info [here](https://github.com/andymcca/sshflash-win/issues/4). On my Windows 11 install the driver is not detected in device manager and ssh requests claim to time out.
 
 2-4. Use the [provided releases](https://github.com/h1lsx/Retroleap-tutorial/releases) with sshflash and Retroleap bundled.
 
