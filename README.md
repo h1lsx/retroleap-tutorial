@@ -1,3 +1,12 @@
+# Disclaimer!
+### Ignore all references of python2 as a linux user! It is experimental.
+To install it on Arch:\
+`git clone https://aur.archlinux.org/openssl-1.1.git`\
+`cd openssl-1.1`\
+`gpg --import keys/pgp/*`\
+`makepkg -si`\
+`paru -S python2`
+### Make sure to clone the [python2](https://github.com/h1lsx/sshflash-password-fix/tree/python2) branch and do not use the bundle.
 # Introduction
 **Retroleap is a replacement firmware for Leapfrog devices, that combines Retroarch, ARM-optimized emulator cores, and a buildroot root filesystem.**
 
